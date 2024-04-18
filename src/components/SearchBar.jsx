@@ -8,7 +8,6 @@ const SearchBar = () => {
   const navigate = useNavigate();
   const [searchTerm, setSearchTerm] = useState('')
   const handleSubmit = (e) => {
-    console.log("handle submit called")
     e.preventDefault(); //sayfayı gereksiz yenilemeyi engellemek için kullanıyoruz.
 
     if (searchTerm) {
